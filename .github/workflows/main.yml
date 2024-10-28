@@ -8,7 +8,7 @@ jobs:
     steps:
       # リポジトリをチェックアウト
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Pythonの環境をセットアップ
       - name: Set up Python 3.7
